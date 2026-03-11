@@ -17,6 +17,8 @@ members = [
 
 [patch.crates-io]
 tokio = { path = "tokio" }
+socket2 = { git = "https://github.com/qnx-ports/socket2-rs", branch = "qnx-0.6.3" }
+libc = { git = "https://github.com/qnx-ports/libc-rs", branch = "qnx-0.2.180" }
 
 [workspace.metadata.spellcheck]
 config = "spellcheck.toml"
